@@ -2,6 +2,75 @@ body {
     font-family: 'Rubik';
 }
 
+nav {
+    margin-top: 30px;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoname {
+    width: 104px;
+    height: 24px;
+    top: 56.12px;
+    left: 195px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+}
+
+.logoimg {
+    margin-right: 10px;
+    width: 35px;
+    height: 36.23px;
+    top: 50px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 52px;
+    height: 19px;
+    top: 58.62px;
+    margin-right: 648px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+nav li {
+    margin-left: 60px;
+}
+
+nav li a {
+    color: #4F5665;
+    text-decoration: none;
+}
+
 p {
     color: #4F5665;
 }
@@ -21,21 +90,18 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    border: solid black;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    border: solid black;
 }
 
 .sales {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    border: solid black;
 }
 
 .get-started {
@@ -49,13 +115,14 @@ li {
     margin-right: 10%;
 }
 
+
 .numbers {
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     width: 80%;
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1); /* Increase blur radius and change color */
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
@@ -112,6 +179,8 @@ li {
 .sales-plan ul {
     width: 200px;
     height: 190px;
+    list-style-type: none; /* Убираем стандартные маркеры */
+
 }
 
 .sales-plan li {
@@ -120,10 +189,18 @@ li {
     line-height: 30px;
     color: #4F5665;
     line-height: 30px;
+    padding-left: 30px;
+    background: url('/Users/ainazik/VsCodeProjects/LaslesVPN/images/galochka.png') no-repeat left center;
+    background-size: 24px 24px;
 }
 
 .sales-proposal {
-    margin-top: auto; /* Pushes the sales proposal to the bottom */
+    margin-top: auto;
+}
+
+.sales-proposal h3{
+    display: flex;
+    justify-content: center;
 }
 
 .sales-img-map {
@@ -151,3 +228,61 @@ li {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+button {
+    height: 45px;
+    width: 150px;
+    top: 45.62px;
+    left: 1140px;
+    gap: 0px;
+    border-radius: 50px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #F53855;
+    background-color: white;
+}
+
+.button-full-red {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 250px;
+    background: #F53838;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 10px 20px rgba(245, 56, 56, 0.35); /* Shadow with offset, blur radius, and color */
+}
+
+.rectangle-shadow {
+    position: absolute;
+    width: 211.83px;
+    height: 60px;
+    top: 502.06px;
+    left: 169.09px;
+    background: transparent; /* Make the rectangle transparent */
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.footer {
+    background-color: #F8F8F8;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    width: 25%;
+  }
+  
+  .footer-column h3 {
+    color: #0B132A /* Green */
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+  }
+  
