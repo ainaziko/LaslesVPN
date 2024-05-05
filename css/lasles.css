@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Rubik;
+    background-color: #FFFFFF;
+}
+
+nav {
+    margin-top: 30px;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoname {
+    width: 104px;
+    height: 24px;
+    top: 56.12px;
+    left: 195px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+}
+
+.logoimg {
+    margin-right: 10px;
+    width: 35px;
+    height: 36.23px;
+    top: 50px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.logo a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 52px;
+    height: 19px;
+    top: 58.62px;
+    margin-right: 648px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li {
+    margin-left: 60px;
+}
+
+li a {
+    color: #4F5665;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #333;
+}
+
+
+
+
+/* main page */
+.mainpagecontent {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetingtexts {
+    /* Adjust width as needed */
+    width: 50%;
+    text-align: center;
+}
+
+.greetingimage {
+    /* Adjust width as needed */
+    width: 50%;
+    text-align: left;
+}
+
+.im {
+    width: 611.24px;
+    height: 382.44px;
+    top: 179.11px;
+    left: 745.76px;
+    gap: 0px;
+    opacity: 0px;
+}
