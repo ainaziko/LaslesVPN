@@ -1,0 +1,16 @@
+.feedbacks-container {
+    width: 300px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.feedbacks {
+    display: flex;
+    animation: scroll 10s linear infinite alternate; /* Adjust duration and timing function as needed */
+}
+
+.feedback {
+    width: 600px !important; /* Adjust as needed */
+    padding: 10px;
+    border: 1px solid #7b63c2;
+    margin-right: 10px; /* Adjust as needed */
+}
