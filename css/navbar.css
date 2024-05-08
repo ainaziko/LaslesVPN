@@ -33,6 +33,10 @@
     width: 37.5rem;
 }
 
+.nav-item__li {
+    list-style-type: none;
+}
+
 .nav-item__ {
     font-size: 1rem;
 }
