@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+    color: #0B132A;
+}
+
+.logoname {
+    font-size: 1.5rem;
+}
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+.nav-item__ul {
+    display: flex;
+    justify-content: space-between;
+    width: 37.5rem;
+}
+
+.nav-item__ {
+    font-size: 1rem;
+}
+
+.sign-in-link {
+    color: #0B132A;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sign-in-link:hover {
+    cursor: pointer;
+}
+
+.navbar-btns {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+    margin-right: 1.5rem;
+}

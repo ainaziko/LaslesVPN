@@ -1,0 +1,15 @@
+body {
+    font-family: 'Rubik';
+}
+
+a {
+    text-decoration: none;
+}
+
+p, li, li a{
+    color: #4F5665;
+}
+
+h2 {
+    color: #0B132A;
+}
