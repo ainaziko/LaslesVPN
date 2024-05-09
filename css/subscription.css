@@ -1,0 +1,30 @@
+.subscription {
+    width: 1140px;
+    height: 233px;
+    border: solid white;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+}
+
+
+.subscription__text {
+    margin-left: 70px;
+}
+
+.large-text {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: #0B132A;
+    width: 360px;
+}
+
+.btn_focused_red {
+    margin-right: 70px;
+}
