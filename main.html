@@ -6,29 +6,31 @@
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-HnN/RUC4UZLtu9a4rP0kuQl1nIRFbq9ZXq/XQxkDQcElNjeK2uVf/cyjlEfsDl+A3xdOjCTwXOywTVpMJ/zI0A==" crossorigin="anonymous" />
+
   </head>
 <body>
 <div class="main">
     <div class="info">
         <nav class="navbar">
             <div class="logo">
-                <img class="logoimg" src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/logo.png">
+                <img class="logoimg" src="./images/logo.svg">
                 <a href="#" class="logoname">Lasles<b>VPN</b></a>
             </div>
             <div class="navdiv"></div>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#get-started">Features</a></li>
+                <li><a href="#sales">Pricing</a></li>
+                <li><a href="#sales-text-map">Testimonials</a></li>
+                <li><a>Help</a></li>
             </ul>
             <div class="navbarbuttons">
                 <button><a href="#">Sign In</a></button>
-                <button><a href="#">Sign Up</a></button>
+                <button class="btn_white"><a href="#">Sign Up</a></button>
             </div>
         </nav>
-        <div class="intro">
+        <div class="intro" id="intro">
         
             <div class="get-started">
                 <div class="get-started-text">
@@ -38,26 +40,28 @@
                     <div class="rectangle"></div>
                 </div>
                 <div class="get-started-image">
-                    <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/person1.png">
+                    <img src="./images/person1.png">
                 </div>
             </div>
             <div class="numbers">
                 <div class="numbers-item">
-                    <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/user-icon.png">
+                    <img src="./images/user-icon.png">
                     <div>
                         <b>90+</b>
                         <p>Users</p>
                     </div>
                 </div>
+                <span class="divider"></span>
                 <div class="numbers-item">
-                    <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/location-icon.png">
+                    <img src="./images/location-icon.png">
                     <div>
                         <b>30+</b>
                         <p>Locations</p>
                     </div>
                 </div>
+                <span class="divider"></span>
                 <div class="numbers-item">
-                    <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/server-icon.png">
+                    <img src="./images/server-icon.png">
                     <div>
                         <b>50+</b>
                         <p>Servers</p>
@@ -65,25 +69,25 @@
                 </div>
             </div>
 
-            <div class="get-started" id="struggle">
+            <div class="get-started" id="get-started">
                 <div class="get-started-image">
-                    <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/person2.png">
+                    <img src="./images/person2.png">
                 </div>
                 <div class="get-started-text" style="padding-left: 30px;">
                     <h2>We Provide Many Features You Can Use</h2>
                     <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
-                    <ul>
-                        <li>Powerfull online protection.</li>
-                        <li>Internet without borders.</li>
-                        <li>Supercharged VPN</li>
-                        <li>No specific time limits.</li>
+                    <ul class="get-started-text-ul">
+                        <li class="get-started-text-li">Powerfull online protection.</li>
+                        <li class="get-started-text-li">Internet without borders.</li>
+                        <li class="get-started-text-li">Supercharged VPN</li>
+                        <li class="get-started-text-li">No specific time limits.</li>
                     </ul>
                 </div>
             </div>
         </div>
 
 
-        <div class="sales">
+        <div class="sales" id="sales">
             <div class="sales-text">
                 <h2>Choose Your Plan</h2>
                 <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
@@ -91,7 +95,7 @@
             <div class="sales-plans">
                 <div class="sales-plan">
                     <div>
-                        <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/box.png">
+                        <img src="./images/box.png">
                     </div>
                     <h3>Free Plan</h3>
                     <ul>
@@ -102,12 +106,12 @@
                     </ul>
                     <div class="sales-proposal">
                         <h3>Free</h3>
-                        <button>Select</button>
+                        <button class="sales-plan__button">Select</button>
                     </div>
                 </div>
                 <div class="sales-plan">
                     <div>
-                        <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/box.png">
+                        <img src="./images/box.png">
                     </div>
                     <h3>Standard Plan</h3>
                     <ul>
@@ -119,12 +123,12 @@
                     </ul>
                     <div class="sales-proposal">
                         <h3>$9 / mo</h3>
-                        <button>Select</button>
+                        <button class="sales-plan__button">Select</button>
                     </div>
                 </div>
                 <div class="sales-plan">
                     <div>
-                        <img src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/box.png">
+                        <img src="./images/box.png">
                     </div>
                     <h3>Premium Plan</h3>
                     <ul>
@@ -137,19 +141,19 @@
                     </ul>
                     <div class="sales-proposal">
                         <h3>$12 / mo</h3>
-                        <button>Select</button>
+                        <button class="sales-plan__button">Select</button>
                     </div>
                 </div>
             </div>
-            <div class="sales-text-map">
+            <div class="sales-text-map" id="sales-text-map">
                 <h2>Huge Global Network of Fast VPN</h2>
                 <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
             </div>
             <div>
-                <img class="sales-img-map" src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/huge-global.png">
+                <img class="sales-img-map" src="./images/huge-global.png">
             </div>
             <div>
-                <img class="sales-img-sponsors" src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/sponsors.png">
+                <img class="sales-img-sponsors" src="./images/sponsors.png">
             </div>
             <div class="sales-text">
                 <h2>Trusted by Thousands of Happy Customer</h2>
@@ -163,32 +167,47 @@
 
 </div>
 <footer class="footer">
-    <div class="footer-column">
-      <img class="logoimg" src="/Users/ainazik/VsCodeProjects/LaslesVPN/images/logo.png"><h3>LaslesVPN</h3>
-      <p><b>LaslesVPN</b> is a private virtual network that has unique features and has high security.</p>
+    
+    <div class="footer__impressum footer__flexbox">
+        <div class="footer__logobox footer__flexbox">
+            <img src="./assets/Logo.svg" alt="Logo">
+            <p><strong>LaslesVPN</strong> is a private virtual network that has unique features and has high
+                security.</p>
+        </div>
+        <div class="footer__iconbox footer__flexbox">
+            <div class="footer__icons">
+                <img src="./images/facebook.svg" alt="Facebook icon">
+                <img src="./images/twitter.svg" alt="Twitter icon">
+                <img src="./images/isntagram.svg" alt="Instagram icon">
+            </div>
+            <p>©2020LaslesVPN</p>
+        </div>
     </div>
+
     <div class="footer-column">
-      <h3>Product</h3>
-      <p>Download </p>
-      <p>Pricing</p>
-      <p>Locations</p>
-      <p>Server</p>
-      <p>Countries</p>
-      <p>Blog</p>
-    </div>
-    <div class="footer-column">
-      <h3>Engage</h3>
-      <p>LaslesVPN?</p>
-      <p>FAQ</p>
-      <p>Tutorials</p>
-      <p>About Us</p>
-      <p>Privacy Policy</p>
-      <p>Terms of Service</p>
-    </div>
-    <div class="footer-column">
-      <h3>Earn Money</h3>
-      <p>Affiliate</p>
-      <p>Become Partner</p>
+        <div class="footer-column__item">
+            <h3>Product</h3>
+            <p>Download </p>
+            <p>Pricing</p>
+            <p>Locations</p>
+            <p>Server</p>
+            <p>Countries</p>
+            <p>Blog</p>
+          </div>
+          <div class="footer-column__item">
+            <h3>Engage</h3>
+            <p>LaslesVPN?</p>
+            <p>FAQ</p>
+            <p>Tutorials</p>
+            <p>About Us</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+          </div>
+          <div class="footer-column__item">
+            <h3>Earn Money</h3>
+            <p>Affiliate</p>
+            <p>Become Partner</p>
+          </div>
     </div>
   </footer>
   

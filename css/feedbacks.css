@@ -1,0 +1,78 @@
+.feedbacks-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+}
+
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.feedback {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 400px;
+    height: 230px;
+    margin: 0 25px;
+    padding: 30px 30px 42px 30px;
+}
+
+.feedback:hover {
+    border: 2px solid #F53838;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.btn-left {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.btn-right {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+
+
+/*feedback cards*/
+/*                author author__info img author-intro author__rating  */
+
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.author__info img {
+    margin-right: 20px;
+}
+
+.author__info {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.author__rating {
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
