@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    padding: 60px 150px 100px 150px;
+}
+
+.footer-company-info {
+    padding-right: 230px;
+}
+
+.footer-columns {
+    flex: 1;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column {
+    line-height: 40px;
+}
+
+
+.footer-sm-text {
+    width: 340px;
+    height: 61.57px;
+    top: 4862.01px;
+    left: 150px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 30px 0 0 1.5rem;
+}
+
+.some-signature {
+    margin: 0 0 30px 1.5rem;
+}
