@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .logo {

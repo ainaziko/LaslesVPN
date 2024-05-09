@@ -17,7 +17,7 @@
 
 /*A red button, focused, borders are slightly rounded*/
 .btn_focused_red {
-    width: 45%;
+    width: 250px;
     height: 50px;
     background: #F53838;
     border-radius: 10px;
